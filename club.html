@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pecking Academy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+
+    
+</head>
+<body style="background-color: rgb(202, 202, 240);">
+
+    <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: rgb(55, 55, 85); padding: 10px;"
+
+   <div class="container-fluid">
+       <div style="margin-left: 20px;">
+            <p style="margin-bottom: 0%; color: white;"><strong>Pecking Academy</strong></p>
+            <p style="font-size: 13px; color: white;">燕京学堂 (Yànjīng Xuétáng)</p>
+       </div>
+
+       <div class="collapse navbar-collapse">
+
+
+        <ul class="navbar-nav me-auto" style="margin-left: 1090px;">
+            <li class="nav-item"> <a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"> <a class="nav-link" href="gwa.html">GWA</a></li>
+            <li class="nav-item"> <a class="nav-link" href="club.html">Clubs</a></li>
+        </ul>
+      
+    </div>
+   </div>
+    
+    </nav>
+
+    <div class="container-fluid text-black text-center p-3" style="background-color: rgb(126, 126, 182);">
+        <h1 style="font-family: 'Times New Roman', Times, serif;">Pecking Academy Clubs</h1>
+        <h3 style="font-family: 'Times New Roman', Times, serif;">燕京学堂 Clubs (Yànjīng Xuétáng)</h3>
+    </div>
+
+    <div style="margin-left: 20%; background-color: rgb(240, 240, 255); width: max-content; padding: 10px; margin-top: 20px;" class="rounded">
+
+        <div> 
+            <p style="text-align: center;">Select a club:</p>
+            <select class="form-control" style="width: 954px;" id="select">
+                <option>Advanced Math</option>
+                <option>Advanced Science</option>
+                <option>Advanced Research</option>
+                <option>Advanced Med</option>
+                <option>Faculty Aid</option>
+            </select>
+        </div>
+
+        <div style="margin-top: 5px;">
+            <button class="btn btn-dark" style="width: 954px;" py-click="getinfo">Submit</button>
+        </div>
+
+    </div>
+    
+    <div style="margin-left: 20%; background-color: rgb(240, 240, 255); width: 974px; margin-top: 10px; padding: 15px;" id="output" class="rounded"></div>
+
+   
+
+    <script type="py" src="main2.py"></script>
+
+
+
+    
+</body>
+</html>
